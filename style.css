@@ -1,0 +1,256 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito',sans-serif;
+    color:black;
+    margin:auto 10px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#logo{
+    max-width:100%;
+    max-height: 100%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.container{
+    width:150%;
+    margin-top:15px;
+    margin-bottom:50px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 10px 10px -8px #e3e3e3;
+}
+.top-nav{
+    color: black;
+    text-decoration: none;
+    width:600px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+button{
+    color:white;
+    border:none;
+    width:150px;
+    height:40px;
+    border-radius:50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.login{
+    background-color: #cf0000;
+    padding:15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:140px;
+    height:40px;
+}
+.course-img{
+    max-width: 100%;
+    border-radius:50%;
+    float:left;
+    margin:50px;
+}
+h1{
+    font-family: 'Nunito Sans',sans-serif;
+    font-size:xx-large;
+}
+h4{
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+}
+.yellow{
+    color:#fcba03;
+}
+.course-features-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top:100px;
+}
+.one{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:140px;
+    width:400px;
+    padding-left:15px;
+    border-radius:20px;
+    border:0.5px solid #e3e3e3;
+    box-shadow: 5px 5px 10px  #e3e3e3;
+}
+.course-price{
+    color:#00aabd;
+    font-weight: 700;
+    font-size: 16px;
+}
+.sub-heading{
+    color:#cf0000;
+    font-weight: 400;
+}
+.btns{
+    width:500px;
+    display: flex;
+    justify-content: space-between;
+}
+.enroll{
+    background-color: #cf0000;
+    padding:12px 20px;
+    height:50px;
+    width:180px;
+    vertical-align: middle;
+}
+.view-all{
+    background-color: #cf0000;
+    padding:13px 40px;
+    width:170px;
+}
+.view-all img{
+    float: right;
+    clear: left;
+}
+.enquire{
+    background-color: #fcba03;
+    height:50px;
+    width:180px;
+}
+.mentor{
+    margin-top:80px;
+}
+.images{
+    position: relative;
+    left: 0;
+    top: 0;
+    float:left;
+    margin-right: 50px;
+}
+.elements{
+    position: relative;
+    top:0;
+    left:0;
+    height:400px;
+}
+.mentor-logo{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    max-width: 100%;
+    width:260px;
+    height:auto;
+    border-radius: 50%;
+}
+.mentor-img{
+    width:380px;
+    height:260px;
+    position:relative; 
+    top:-17px;
+    border-bottom: 5px solid #009db5;
+    padding-bottom:-10px;
+    border-radius: 20px 20px 0 0;
+}
+.more-mentor{
+    margin:100px 20px 40px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.more-workshops{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.courses{
+    width:380px;
+    height:380px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    border:0.5px solid #e3e3e3;
+    box-shadow: 5px 5px 10px  #e3e3e3;
+}
+.courses p{
+    padding-left:10px;
+    padding-right: 10px;
+}
+.course-features-two{
+    clear:left;
+    display: flex;
+    justify-content: space-around;
+}
+.two{
+    border-radius: 20px;
+    border:0.5px solid #e3e3e3;
+    box-shadow: 5px 5px 10px  #e3e3e3;
+    padding:15px;
+    width:48%;
+    height:auto;
+}
+ul{
+    padding-left:50px;
+}
+footer{
+    background-color: #3e4042;
+    margin-top:80px;
+    height:auto;
+}
+.bottom-nav{
+    display: flex;
+    width:80%;
+    justify-content: space-around;
+}
+.footer-text{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer-center{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding:30px;
+}
+footer a{
+    color:#fca903;
+}
+hr{
+    border:none;
+    height:0.5px;
+    background-color:white;
+    margin:0 10px ;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px ;
+}
+.social-media img{
+    background-color:#cf0000;
+    border-radius:50%;
+    padding:5px;
+    margin:10px;
+}
